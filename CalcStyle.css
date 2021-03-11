@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+    height: 50vh;
+    width: 99%;
+    
+}
+.calculator{
+    background: gray;
+    color: darkorange;
+    width: 100%;
+    min-height: 50vh;
+    height: 50vh;
+    max-width: 320px;
+
+    
+}
+
+.calcNumbpad{
+    margin: 1%;
+    display: grid;
+    grid-column-gap: 1%;
+    grid-template-columns: auto auto auto auto auto;
+    max-width: 320px;
+    
+    min-width: 32px;
+    min-height: 80%;
+ 
+}
+
+.boxbtn{}
+
+.boxbtnR2C1{}
+
+.boxbtnR1C2{
+    grid-column: 2;
+    
+}
